@@ -1,0 +1,5 @@
+#extesion
+comment = 'to get information and execute statement about VACUUM and ANALYZE on tables'
+default_version = '0.1.0'
+relocatable = true
+superuser = false

@@ -1,0 +1,42 @@
+{
+ "name": "vacuum_utils",
+ "abstract": "Functions to get information and execute statement about VACUUM and ANALYZE on tables, read the README  ",
+ "version": "0.1.0",
+ "maintainer": "Anthony Sotolongo <asotolongo@gmail.com>",
+ "license": "postgresql",
+ "provides": {
+    "vacuum_utils": {
+       "abstract": "Functions to get information and execute statement about VACUUM and ANALYZE on tables, read the README  ",
+       "file": "vaccum_utils--0.1.0.sql",
+       "docfile": "README",
+       "version": "0.1.0"
+    }
+ },
+ "prereqs": {
+    "runtime": {
+       "requires": {
+          "PostgreSQL": "9.4.0"
+       }
+    }
+ },
+ "resources": {
+    "bugtracker": {
+       "web": "http://anthonysotolongo.wordpress.com"
+    },
+    "repository": {
+      "url":  "https://github.com/asotolongo/vacuum_utils.git",
+      "web":  "https://github.com/asotolongo ",
+      "type": "git"
+    }
+ },
+ "generated_by": "Anthony Sotolongo leon",
+ "meta-spec": {
+    "version": "1.0.0",
+    "url": ""
+ },
+ "tags": [
+    "info",
+    "maintenance"
+   
+ ]
+}
